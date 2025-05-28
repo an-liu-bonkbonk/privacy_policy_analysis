@@ -8,6 +8,8 @@ Original published dataset from the Wagner, 2022 paper is available on https://z
 
 This project reproduces some of the readability metrics from the txt files (only the text files in policies_texts folder are used, not metadata), conducts a sentiment analysis to compute the polarity and subjectivity on the policy texts using Python library Textblob, and finally conducts a correlation analysis between the reability metrics and sentiment analysis results.  
 
+Note: "policy-texts.zip" required for this analysis is not uploaded to this repository due to large file size (and that I don't want to pay for GitHub pro)
+
 Reference:  
 Wagner, I. (2022, January 21). Privacy Policies Across the Ages: Content and Readability of Privacy Policies 1996--2021. ArXiv.org. https://doi.org/10.48550/arXiv.2201.08739  
 Loria, S. (2018). textblob Documentation. Release 0.15, 2.
