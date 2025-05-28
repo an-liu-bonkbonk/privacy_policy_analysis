@@ -4,6 +4,11 @@ Sentiment Analysis and correlation analysis between sentiment analysis metrics a
 
 Published paper can be accessed on https://arxiv.org/abs/2201.08739  
 
-Original dataset from Wagner, 2022 paper is available on https://zenodo.org/records/7426577  
+Original published dataset from the Wagner, 2022 paper is available on https://zenodo.org/records/7426577  
 
-This project reproduces some of the readability metrics from the txt files (note: only the text files in policies_texts folder are used, not metadata), conducts a sentiment analysis to compute the polarity and subjectivity on the policy texts, and finally conducts a correlation analysis between the reability metrics and sentiment analysis results.  
+This project reproduces some of the readability metrics from the txt files (note: only the text files in policies_texts folder are used, not metadata), conducts a sentiment analysis to compute the polarity and subjectivity on the policy texts using Python library Textblob, and finally conducts a correlation analysis between the reability metrics and sentiment analysis results.  
+
+
+Reference:  
+Wagner, I. (2022, January 21). Privacy Policies Across the Ages: Content and Readability of Privacy Policies 1996--2021. ArXiv.org. https://doi.org/10.48550/arXiv.2201.08739  
+Loria, S. (2018). textblob Documentation. Release 0.15, 2.
